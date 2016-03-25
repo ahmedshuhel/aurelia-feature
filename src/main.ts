@@ -5,7 +5,8 @@ export function configure(aurelia: Aurelia) {
     .standardConfiguration()
     .developmentLogging()
     .feature('src/features/feat1')
-    .feature('src/features/feat2/main.ts');
+    .feature('src/features/feat2/main.ts')
+    .feature('src/features/well');
 
   aurelia
   .start()
